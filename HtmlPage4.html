@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        var x = 10;
+        function fun() {
+            var x = 10;
+            document.writeln("Local Variable :"+x);
+            document.writeln("Global variable :"+window.x);
+        }
+    </script>
+</head>
+<body>
+    <h3>variable declaration in javascript</h3>
+    <p> there are two types variable in js local and global </p>
+    <div>with in the functios are local variable we can access directly</div>
+    <h4>with in the script tag and out side of function declered <br>variables are global variable by using WINDOW we can access it</h4>
+    <form>
+        <input type="submit" value="Click" onclick="fun()"/>
+    </form>
+</body>
+</html>

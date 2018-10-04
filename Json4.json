@@ -1,0 +1,16 @@
+﻿{
+
+  "weeks": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+  "employees": [
+    {
+      "name": "Ram",
+      "email": "Ram@gmail.com"
+    },
+    {
+      "name": "Bob",
+      "email": "bob32@gmail.com"
+    }
+  ],
+  "Numbers": [ 12, 34, 56, 43, 95 ],
+  "Booleans": [ true, true, false, false, true ]
+}

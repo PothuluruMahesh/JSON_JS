@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        var i = 'A';
+        var results;
+        function fun()
+        {
+            switch (i)
+            {
+                case 'B': document.writeln("B pass");
+                    results = 98;
+                    break;
+                case 'A': document.writeln("A pass");
+                    results = 35;
+                    break;
+                case 'C': document.writeln("C pass");
+                    results = 78;
+                    break;
+                case 'D': document.writeln("D pass");
+                    results = 80;
+                    break;
+                default: document.writeln("results not found");
+            }
+            document.writeln("Result is " + results);
+        }
+    </script>
+</head>
+<body>
+    <h3> javaScript with switch</h3>
+    <form>
+        <input type="submit" value="Click" onclick="fun()" />
+    </form>
+</body>
+</html>
